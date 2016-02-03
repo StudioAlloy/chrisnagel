@@ -10,6 +10,30 @@ layout: default
 </div>
 <div class="row">
   <div class="inner">
-    <p>
+    <div class="text">
+    <p>Deze video word een portret documentaire van Chris Nagel, een 83 jaar oude man die zijn hele leven hee  gezorgd voor anderen. Tot het moment er op aan kwam dat hij niet meer voor zichzelf kon zorgen.</p>
+    <p>Hij werd erns g ziek en na zijn terugkeer (alleen thuis) bese e hij dat het hem niet meer alleen ging lukken. Hij aanvaarde het advies om in een verzorgingstehuis te gaan wonen.</p>
+    <p>Al snel werd hij onderdeel van het team door zijn inzet in de catering. Nu er weer voor hem word gezorgd kan hij weer voor andere zorgen.</p>
+    <p>Daarnaast hee  hij een erg slecht zicht wat het allemaal nog las ger en onbegrijpelijker maakt.</p>
+    <p>Waarom zou je met zulke beperkingen nog zoveel hulp bieden op je oude dag?</p>
+  </div>
+    <div class="image">
+    </div>
+  </div>
+</div>
+<div class="row still" style="background: url('/img/{{ site.title | slugify}}.jpg')">
+  <q>{{ site.subtitle }}</q>
+</div>
+<div class="row team-members">
+  <div class="inner">
+    {% assign team_order = (site.team | sort: 'order') %}
+    {% for post in team_order %}
+    <div class="team">
+      <img src="/img/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" />
+      <h3>{{ post.title }}</h3>
+      <h4>{{ post.function }}</h4>
+      <p>{{ post.excerpt }}</p>
+    </div>
+    {% endfor %}
   </div>
 </div>

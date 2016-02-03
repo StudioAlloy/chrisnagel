@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
+* { box-sizing: border-box; }
 html {
   font-size: 20px;
 }
 body {
   margin: 0;
-  background: #444;
+  background: #262626;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -13,22 +14,30 @@ body {
 }
 h1, h2, h3, h4 {
   text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
 }
 h1 {
-  font-size: 4rem;
-  line-height: 4.4rem;
+  font-size: 3rem;
+  line-height: 3.4rem;
 }
 h2 {
-  font-size: 3rem;
-  line-height: 3.4rem
-}
-h3 {
   font-size: 2rem;
   line-height: 2.4rem
+}
+h3 {
+  font-size: 1.8rem;
+  line-height: 2.2rem
 }
 h4 {
   font-size: 1rem;
   line-height: 1.4rem
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
 }
 /* Layout
 ———————————————————————————————————— */
@@ -44,4 +53,27 @@ header.title {
   text-align: center;
 }
 /* END Intro
+———————————————————————————————————— */
+/* Team
+———————————————————————————————————— */
+.team-members .inner > * {
+  width: 33%;
+  display: inline-block;
+  padding: 30px;
+}
+.team-members img {
+  width: 100%;
+  border-radius: 50%;
+}
+/* END Team
+———————————————————————————————————— */
+/* Bits
+———————————————————————————————————— */
+.still {
+  min-height: 450px;
+  height: 60vh;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+/* END Bits
 ———————————————————————————————————— */
