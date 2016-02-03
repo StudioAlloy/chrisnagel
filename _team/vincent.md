@@ -1,12 +1,12 @@
 ---
-title:  "Vincent Paolo Corputty"
+title:  "Vincent-Paolo Corputty"
 function: Music
-excerpt: Gepassioneerde ontwerper van branding en bewegend beeld
-description: I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name Studio 210 as a collective of creative designer and developers.
-website: http://www.wilsuncheung.nl/
-phone: +31 (0)6 24 62 11 88
-email: cheungw91@gmail.com
-twitter_username: _dimsun
-linkedin_username: wilsuncheung
+excerpt: Muziekproducent die producties net die final touch geeft
+description:
+website: http://www.vincent-paolo.net
+phone: +31 (0)6 53 57 76 29
+email: vincentpaolomusic@gmail.com
+twitter_username: 
+linkedin_username: 
 order: 3
 ---
