@@ -1,7 +1,7 @@
 ---
 title:  "Woutair Koomen"
 function: Director
-excerpt: Woutair Koomen is een gepassioneede filmmaker. Hij vindt het geweldig om unieke verhalen vast te leggen in de mooiste en puurste vorm. Woutair heeft een sterk gevoel voor esthetiek in films, aangezien hij meer films gezien heeft dan welke harddisk ook maar kan bevatten. Van portretdocumentaires tot branded films. Ieder verhaal wat de moeite waard is om te vertellen legt hij wonderschoon vast. Hiermee vangt hij alle verhalen om hem heen.
+excerpt: Van verhalen tot aan mooie films.
 description:
 website: //www.woutairkoomen.com
 phone: +31 6 81 15 96 78
