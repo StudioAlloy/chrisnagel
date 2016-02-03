@@ -33,6 +33,15 @@ h4 {
   font-size: 1rem;
   line-height: 1.4rem
 }
+q {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding: 65px;
+  position: absolute;
+  top: 40%;
+  display: block;
+  max-width: 640px;
+}
 q:before {
     content: open-quote;
 }
@@ -45,12 +54,19 @@ q:after {
   max-width: 1200px;
   margin: 0 auto;
 }
+.wrapper > .intro {
+  height: 100vh;
+}
+.synopsis {
+  padding: 130px;
+}
 /* END Layout
 ———————————————————————————————————— */
 /* Intro
 ———————————————————————————————————— */
 header.title {
   text-align: center;
+  padding: 65px;
 }
 /* END Intro
 ———————————————————————————————————— */
@@ -74,6 +90,7 @@ header.title {
   height: 60vh;
   background-size: cover !important;
   background-position: center center !important;
+  position: relative;
 }
 /* END Bits
 ———————————————————————————————————— */
