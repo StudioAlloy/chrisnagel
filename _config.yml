@@ -1,0 +1,21 @@
+# Site settings
+title: Chris Nagel
+subtitle: Ik ben maar gewoon een hulpje
+email:
+description:
+
+baseurl: "//studioalloy.nl/chrisnagel" # the subpath of your site, e.g. /blog/
+url: "//studioalloy.nl/chrisnagel" # the base hostname & protocol for your site
+
+vimeo: 153902405
+
+twitter_username:
+github_username:
+
+# Collections
+collections:
+  team:
+    output: false
+
+# Build settings
+markdown: kramdown
