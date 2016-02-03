@@ -21,7 +21,7 @@ layout: default
     </div>
   </div>
 </div>
-<div class="row still" style="background: url('/img/{{ site.title | slugify}}.jpg')">
+<div class="row still" style="background: url('img/{{ site.title | slugify}}.jpg')">
   <q>{{ site.subtitle }}</q>
 </div>
 <div class="row team-members">
@@ -29,7 +29,7 @@ layout: default
     {% assign team_order = (site.team | sort: 'order') %}
     {% for post in team_order %}
     <div class="team">
-      <img src="/img/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" />
+      <img src="img/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" />
       <h3>{{ post.title }}</h3>
       <h4>{{ post.function }}</h4>
       <p>{{ post.excerpt }}</p>
