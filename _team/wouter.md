@@ -1,12 +1,13 @@
 ---
-title:  "Wouter Koomen"
+title:  "Woutair Koomen"
 function: Director
-excerpt: Gepassioneerde ontwerper van branding en bewegend beeld
-description: I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name Studio 210 as a collective of creative designer and developers.
-website: http://www.wilsuncheung.nl/
-phone: +31 (0)6 24 62 11 88
-email: cheungw91@gmail.com
-twitter_username: _dimsun
-linkedin_username: wilsuncheung
+excerpt: Woutair Koomen is een gepassioneede filmmaker. Hij vindt het geweldig om unieke verhalen vast te leggen in de mooiste en puurste vorm. Woutair heeft een sterk gevoel voor esthetiek in films, aangezien hij meer films gezien heeft dan welke harddisk ook maar kan bevatten. Van portretdocumentaires tot branded films. Ieder verhaal wat de moeite waard is om te vertellen legt hij wonderschoon vast. Hiermee vangt hij alle verhalen om hem heen.
+description:
+website: //www.woutairkoomen.com
+phone: +31 6 81 15 96 78
+email: woutairkoomenproductions@gmail.com
+twitter_username:
+github_username:
+linkedin_username: woutairkoomen
 order: 1
 ---
