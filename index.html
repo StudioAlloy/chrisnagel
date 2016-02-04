@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="row intro">
   <header class="title">
-    <h1>{{ site.title }}</h1>
+    <h1>{{ site.title }}{% include social.html %}</h1>
     <h2>{{ site.subtitle }}</h2>
   </header>
   <iframe src="https://player.vimeo.com/video/{{ site.vimeo }}?title=0&byline=0&portrait=0" width="160" height="90" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -21,6 +21,7 @@ layout: default
       {% for team in author %}
       <img src="img/{{ team.title | slugify }}.jpg" alt="{{ team.title }}" />
       {% endfor %}
+      {% include social.html %}
     </div>
   </div>
 </div>
@@ -62,6 +63,7 @@ layout: default
     <div class="col">
       <p>Deze film is ontstaan vanuit de wens om een mooi portret van mijn opa te maken. Ik geloof er sterk in dat er meer bijzondere ouderen zijn met een intrigerend verhaal. We kunnen natuurlijk meer verhalen op deze wijze vastleggen in opdracht.</p>
       <p>Dit soort portretten dragen bij aan een beter beeld van ouderen en de zorg-instellingen die zich over hun bekommeren.</p>
+      {% include social.html %}
     </div>
   </div>
 </div>

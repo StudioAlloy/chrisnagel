@@ -41,20 +41,23 @@ h4 {
   font-weight: 300;
   margin-top: 50px;
 }
-.title h1{
+.title h1 {
   letter-spacing: 0.5rem;
+  position: relative;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
 }
-.flexbox .still {
+.still {
   display: flex;
   align-items: center;
 }
 .no-flexbox .qoute {
   position: absolute;
   top: 40%;
-  max-width: 640px;
 }
 .quote {
-  max-width: 700px;
+  max-width: 670px;
 }
 q {
   font-size: 2rem;
@@ -102,22 +105,29 @@ q:after {
 ———————————————————————————————————— */
 header.title {
   text-align: center;
-  padding: 100px 100px 120px;
 }
 /* END Intro
 ———————————————————————————————————— */
 /* Team
 ———————————————————————————————————— */
 .team-members img {
-  max-width: 300px;
+  max-width: 100%;
   border-radius: 50%;
   margin:0 auto;
+}
+.row.team-members .inner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
 }
 .team h3 {
   margin-top: -100px;
   margin-bottom: 30px;
-  text-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+  text-shadow: 3px 3px 1px rgba(0,0,0,.6);
   letter-spacing: 0.17rem;
+  font-size: 1.4rem;
+  text-align: right;
 }
 .team .meta h4 {
   text-align: center;
@@ -140,12 +150,7 @@ header.title {
 .logo {
   text-align: center;
 }
-.col img {
-  width: 250px;
-  height: 250px;
-  display: block;
-  margin: 0 auto;
-}
+
 .verzendbutton{
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
@@ -249,6 +254,42 @@ footer#colophon p {
 }
 /* END Footer
 ———————————————————————————————————— */
+/* Social
+———————————————————————————————————— */
+.share-buttons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.share-buttons > * {
+  display: inline-block;
+  margin-left: 10px;
+}
+.share-buttons svg {
+  width: 20px;
+  height: 20px;
+}
+.share-buttons a:hover {
+  opacity: 1;
+}
+.share-buttons a {
+  opacity: .6;
+  transition: opacity .4s ease;
+}
+.share-buttons li {
+  margin-left: 25px
+}
+.index .row .share-buttons li:first-child {
+  margin-left: 0 !important:
+}
+.image .share-buttons {
+  padding-top: 50px;
+}
+.col .share-buttons {
+  padding-top: 50px;
+}
+/* END Social
+———————————————————————————————————— */
 /* MQ
 ———————————————————————————————————— */
 @media only screen and (min-width : 768px) {
@@ -271,9 +312,34 @@ footer#colophon p {
     padding: 150px 50px;
   }
   .team-members .inner > * {
-    width: 33%;
+    width: 360px;
     float: left;
-    padding: 30px;
+    padding: 50px;
+  }
+  header.title .share-buttons {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+  }
+  header.title {
+    padding: 100px 100px 120px;
+  }
+}
+@media only screen and (max-width : 767px) {
+	/* Styles */
+  header.title,
+  .inner > * {
+    padding: 80px 0;
+  }
+  .team-members {
+    text-align: center;
+  }
+  button.verzendbutton {
+    width: 100%;
+  }
+  .sa-inner > * {
+    width: 100%;
+    text-align: center;
   }
 }
 /* END MQ
