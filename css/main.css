@@ -2,6 +2,10 @@
 
 * { box-sizing: border-box; }
 img {text-decoration: none; border: 0px}
+.no-flexbox footer#colophon a {
+    float: right;
+    padding-bottom: 27px;
+}
 html {
   font-size: 18px;
 }
