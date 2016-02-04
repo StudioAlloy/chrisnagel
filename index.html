@@ -28,7 +28,7 @@ layout: default
   </div>
 </div>
 <div class="row still" style="background: url('img/{{ site.title | slugify}}.jpg')">
-  <div class="qoute">  
+  <div class="qoute">
   <q>Iedereen kent me, dat komt natuurlijk omdat ik nog veel doe natuurlijk he.</q>
 </div>
 </div>
@@ -39,8 +39,10 @@ layout: default
     <div class="team">
       <img src="img/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" />
       <h3>{{ post.title }}</h3>
+      <div class="meta">
       <h4>{{ post.function }}</h4>
       <p>{{ post.excerpt }}</p>
+    </div>
     </div>
     {% endfor %}
   </div>
@@ -57,7 +59,7 @@ layout: default
         <button type="submit">Stuur</button>
       </form>
     </div>
-    <div class="">
+    <div class="col">
       <img src="img/adays.svg" alt="ADAYS | We are a hybrid design film company that nurtures unbounded stories" />
     </div>
   </div>

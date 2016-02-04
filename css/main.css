@@ -33,16 +33,23 @@ h4 {
   font-size: 1rem;
   line-height: 1.4rem
 }
-.qoute {
+.flexbox .still {
+  display: flex;
+  align-items: center;
+}
+.no-flexbox .qoute {
   position: absolute;
   top: 40%;
-  display: block;
+  max-width: 640px;
+}
+.qoute {
   max-width: 640px;
 }
 q {
   font-size: 2rem;
   line-height: 2.4rem;
   padding: 65px;
+  display: block;
 }
 q:before {
     content: open-quote;
@@ -56,6 +63,8 @@ q:after {
   max-width: 1200px;
   margin: 0 auto;
 }
+.row .inner:before,
+.row .inner:after,
 .row::before,
 .row:after {
   content: "";
@@ -88,6 +97,15 @@ header.title {
   width: 100%;
   border-radius: 50%;
 }
+.team h3 {
+  margin-top: -100px;
+  max-width: 260px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+}
+.team .meta h4 {
+  text-align: center;
+}
 /* END Team
 ———————————————————————————————————— */
 /* Bits
@@ -99,9 +117,36 @@ header.title {
   background-position: center center !important;
   position: relative;
 }
+.col img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
 /* END Bits
 ———————————————————————————————————— */
-/* Bits
+/* Input
+———————————————————————————————————— */
+input {
+  width: 100%;
+  border: 0;
+  font-size: 1.4rem;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+button {
+  float: right;
+  border: 0;
+  background: #444;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 45px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* END Input
+———————————————————————————————————— */
+/* Footer
 ———————————————————————————————————— */
 footer#colophon {
   background: #202020;
@@ -167,7 +212,7 @@ footer#colophon p {
   margin-right: 5px;
   line-height: 10px;
 }
-/* END Bits
+/* END Footer
 ———————————————————————————————————— */
 /* MQ
 ———————————————————————————————————— */
@@ -175,6 +220,7 @@ footer#colophon p {
 	/* Styles */
   .text {
     width: 70%;
+    padding-right: 65px;
   }
   .image {
     width: 30%;
@@ -187,7 +233,7 @@ footer#colophon p {
     float: left;
   }
   .inner {
-    padding: 65px;
+    padding: 130px 65px;
   }
   .team-members .inner > * {
     width: 33%;
