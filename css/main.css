@@ -2,7 +2,7 @@
 
 * { box-sizing: border-box; }
 img {text-decoration: none; border: 0px}
-.no-flexbox footer#colophon a {
+.no-flexbox footer .sa-credits {
     float: right;
     padding-bottom: 27px;
 }
