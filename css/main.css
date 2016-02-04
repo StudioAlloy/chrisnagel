@@ -10,7 +10,7 @@ body {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  line-height: 1.6rem;
+  line-height: 1.7rem;
   font-weight:300;
 }
 h1, h2, h3, h4 {
@@ -93,6 +93,9 @@ q:after {
 .inner {
   padding: 15px;
 }
+.col {
+  padding: 30px;
+}
 /* END Layout
 ———————————————————————————————————— */
 /* Intro
@@ -112,9 +115,9 @@ header.title {
 }
 .team h3 {
   margin-top: -100px;
-  max-width: 260px;
   margin-bottom: 30px;
   text-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+  letter-spacing: 0.17rem;
 }
 .team .meta h4 {
   text-align: center;
@@ -134,18 +137,26 @@ header.title {
   background-position: center center !important;
   position: relative;
 }
+.logo {
+  text-align: center;
+}
 .col img {
   width: 250px;
   height: 250px;
   display: block;
   margin: 0 auto;
 }
-
 .verzendbutton{
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
   font-weight:300;
   letter-spacing: 0.5rem;
+}
+.center {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: inherit;
 }
 /* END Bits
 ———————————————————————————————————— */
@@ -257,7 +268,7 @@ footer#colophon p {
     float: left;
   }
   .inner {
-    padding: 130px 65px;
+    padding: 150px 50px;
   }
   .team-members .inner > * {
     width: 33%;

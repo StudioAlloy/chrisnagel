@@ -35,7 +35,7 @@ layout: default
     {% for post in team_order %}
     <div class="team">
       <img src="img/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" />
-      <h3>{{ post.title }}</h3>
+      <h3>{{ post.title | replace:' ','<br>' }}</h3>
       <div class="meta">
       <h4>{{ post.function }}</h4>
       <p>{{ post.excerpt }}</p>
@@ -44,11 +44,13 @@ layout: default
     {% endfor %}
   </div>
 </div>
-
+<div class="row">
+  <h3 class="center">Contact</h3>
+</div>
 <div class="row">
   <div class="inner">
     <div class="col">
-      <h2>Spreekt deze film je aan en wil je in contact komen met de makers? gebruik dit formulier.</h2>
+      <p>Spreekt deze film je aan en wil je in contact komen met de makers? gebruik dit formulier.</p>
       <form accept-charset="UTF-8" action="https://formkeep.com/f/91f550e93f02" method="POST">
         <input type="hidden" name="utf8" value="✓">
         <input type="text" name="naam" placeholder="Naam">
@@ -65,7 +67,9 @@ layout: default
 </div>
 
 <div class="row">
-  <div class="inner">
-      <img src="img/adays.svg" alt="ADAYS | We are a hybrid design film company that nurtures unbounded stories" />
+  <div class="inner logo">
+      <a href="//adays.nl">
+        <img src="img/adays.svg" alt="ADAYS | We are a hybrid design film company that nurtures unbounded stories" />
+      </a>
     </div>
 </div>
