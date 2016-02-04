@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 * { box-sizing: border-box; }
-img {text-decoration: none; border: 0px}
-.no-flexbox footer .sa-credits {
-    float: right;
-    padding-bottom: 27px;
-}
 html {
   font-size: 18px;
 }
@@ -283,3 +278,14 @@ footer#colophon p {
 }
 /* END MQ
 ———————————————————————————————————— */
+
+/* IE 9  fixes
+———————————————————————————————————— */
+img {text-decoration: none; border: 0px}
+.no-flexbox footer .sa-credits {
+    float: right;
+    padding-bottom: 27px;
+}
+/* END IE 9  fixes
+———————————————————————————————————— */
+
