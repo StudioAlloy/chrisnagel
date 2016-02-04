@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 * { box-sizing: border-box; }
 html {
@@ -11,6 +11,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6rem;
+  font-weight:300;
 }
 h1, h2, h3, h4 {
   text-transform: uppercase;
@@ -23,19 +24,21 @@ h1 {
 }
 h2 {
   font-size: 1.2rem;
-  line-height: 1.8rem
+  line-height: 1.8rem;
+  letter-spacing: 0.75rem;
 }
 h3 {
   font-size: 1.8rem;
-  line-height: 2.2rem
+  line-height: 2.2rem;
+  letter-spacing: 0.5rem;
 }
 h4 {
   font-size: 1rem;
-  line-height: 1.4rem
+  line-height: 1.4rem;
 }
 .title h2{
   letter-spacing: 0.75rem;
-  font-weight: 200;
+  font-weight: 300;
   margin-top: 50px;
 }
 .title h1{
@@ -50,13 +53,14 @@ h4 {
   top: 40%;
   max-width: 640px;
 }
-.qoute {
-  max-width: 640px;
+.quote {
+  max-width: 700px;
 }
 q {
   font-size: 2rem;
   line-height: 2.4rem;
-  padding: 65px;
+  letter-spacing: 0.15rem;
+  padding: 75px;
   display: block;
 }
 q:before {
@@ -95,15 +99,16 @@ q:after {
 ———————————————————————————————————— */
 header.title {
   text-align: center;
-  padding: 100px;
+  padding: 100px 100px 120px;
 }
 /* END Intro
 ———————————————————————————————————— */
 /* Team
 ———————————————————————————————————— */
 .team-members img {
-  width: 100%;
+  max-width: 300px;
   border-radius: 50%;
+  margin:0 auto;
 }
 .team h3 {
   margin-top: -100px;
@@ -114,6 +119,10 @@ header.title {
 .team .meta h4 {
   text-align: center;
 }
+.team .meta{
+  margin-top:50px;
+}
+
 /* END Team
 ———————————————————————————————————— */
 /* Bits
@@ -130,6 +139,13 @@ header.title {
   height: 250px;
   display: block;
   margin: 0 auto;
+}
+
+.verzendbutton{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight:300;
+  letter-spacing: 0.5rem;
 }
 /* END Bits
 ———————————————————————————————————— */
@@ -228,7 +244,7 @@ footer#colophon p {
 	/* Styles */
   .text {
     width: 70%;
-    padding-right: 65px;
+    padding-right: 75px;
   }
   .image {
     width: 30%;

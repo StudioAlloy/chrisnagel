@@ -11,24 +11,21 @@ layout: default
 <div class="row synopsis">
   <div class="inner">
     <div class="text">
-      <p>Deze video word een portret documentaire van Chris Nagel, een 83 jaar oude man die zijn hele leven hee  gezorgd voor anderen. Tot het moment er op aan kwam dat hij niet meer voor zichzelf kon zorgen.</p>
-      <p>Hij werd erns g ziek en na zijn terugkeer (alleen thuis) bese e hij dat het hem niet meer alleen ging lukken. Hij aanvaarde het advies om in een verzorgingstehuis te gaan wonen.</p>
-      <p>Al snel werd hij onderdeel van het team door zijn inzet in de catering. Nu er weer voor hem word gezorgd kan hij weer voor andere zorgen.</p>
-      <p>Daarnaast hee  hij een erg slecht zicht wat het allemaal nog las ger en onbegrijpelijker maakt.</p>
-      <p>Waarom zou je met zulke beperkingen nog zoveel hulp bieden op je oude dag?</p>
+      <p>Dit is een film voor en over mijn opa, het is een portret van Chris Nagel. Zijn hele leven heeft hij voor anderen gezorgd, waaronder twintig jaar voor zijn vrouw na een herseninfarct. Nadat het na een ernstige ziekte niet meer lukte om voor zichzelf te zorgen, aanvaarde hij het lot van het verzorgingstehuis, iets wat hij altijd had afgezworen:  Opgesloten en vergeten noemde hij het.</p>
+      <p>Nu woont hij er een jaar in Huis ter Hagen in Driehuis. Het voor hem laten zorgen kan hij nog moeilijk accepteren. Hij helpt iedereen nog dagelijks, hierdoor heeft hij eindelijk zijn plek gevonden.</p>
+      <p>Naast dat ik natuurlijk onwijs trots ben op mijn opa, denk ik dat dit soort verhalen erg belangrijk zijn om te vertellen.</p>
+      <h2>Woutair Koomen</h2>
     </div>
     <div class="image">
       {% assign author = (site.team | where:"order",1 ) %}
       {% for team in author %}
       <img src="img/{{ team.title | slugify }}.jpg" alt="{{ team.title }}" />
-      <h2>{{ team.title }}</h2>
       {% endfor %}
-
     </div>
   </div>
 </div>
 <div class="row still" style="background: url('img/{{ site.title | slugify}}.jpg')">
-  <div class="qoute">
+  <div class="quote">
   <q>Iedereen kent me, dat komt natuurlijk omdat ik nog veel doe natuurlijk he.</q>
 </div>
 </div>
@@ -51,16 +48,24 @@ layout: default
 <div class="row">
   <div class="inner">
     <div class="col">
-      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <h2>Spreekt deze film je aan en wil je in contact komen met de makers? gebruik dit formulier.</h2>
       <form accept-charset="UTF-8" action="https://formkeep.com/f/91f550e93f02" method="POST">
         <input type="hidden" name="utf8" value="✓">
         <input type="text" name="naam" placeholder="Naam">
         <input type="email" name="email" placeholder="Email">
-        <button type="submit">Stuur</button>
+        <input type="bericht" name="bericht" placeholder="Bericht">
+        <button class="verzendbutton" type="submit">Verzend</button>
       </form>
     </div>
     <div class="col">
-      <img src="img/adays.svg" alt="ADAYS | We are a hybrid design film company that nurtures unbounded stories" />
+      <p>Deze film is ontstaan vanuit de wens om een mooi portret van mijn opa te maken. Ik geloof er sterk in dat er meer bijzondere ouderen zijn met een intrigerend verhaal. We kunnen natuurlijk meer verhalen op deze wijze vastleggen in opdracht.</p>
+      <p>Dit soort portretten dragen bij aan een beter beeld van ouderen en de zorg-instellingen die zich over hun bekommeren.</p>
     </div>
   </div>
+</div>
+
+<div class="row">
+  <div class="inner">
+      <img src="img/adays.svg" alt="ADAYS | We are a hybrid design film company that nurtures unbounded stories" />
+    </div>
 </div>
