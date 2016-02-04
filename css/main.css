@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,400,700);
 
 * { box-sizing: border-box; }
 html {
@@ -32,6 +32,14 @@ h3 {
 h4 {
   font-size: 1rem;
   line-height: 1.4rem
+}
+.title h2{
+  letter-spacing: 0.75rem;
+  font-weight: 200;
+  margin-top: 50px;
+}
+.title h1{
+  letter-spacing: 0.5rem;
 }
 .flexbox .still {
   display: flex;
@@ -87,7 +95,7 @@ q:after {
 ———————————————————————————————————— */
 header.title {
   text-align: center;
-  padding: 65px;
+  padding: 100px;
 }
 /* END Intro
 ———————————————————————————————————— */
