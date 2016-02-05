@@ -263,7 +263,6 @@ footer#colophon p {
 }
 .share-buttons > * {
   display: inline-block;
-  margin-left: 10px;
 }
 .share-buttons svg {
   width: 20px;
@@ -287,6 +286,9 @@ footer#colophon p {
 }
 .col .share-buttons {
   padding-top: 50px;
+}
+.title .share-buttons li {
+  margin-left: 0;
 }
 /* END Social
 ———————————————————————————————————— */
@@ -343,4 +345,14 @@ footer#colophon p {
   }
 }
 /* END MQ
+———————————————————————————————————— */
+
+/* IE 9  fixes
+———————————————————————————————————— */
+img {text-decoration: none; border: 0px}
+.no-flexbox footer .sa-credits {
+    float: right;
+    padding-bottom: 27px;
+}
+/* END IE 9  fixes
 ———————————————————————————————————— */
