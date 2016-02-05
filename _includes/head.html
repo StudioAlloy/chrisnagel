@@ -8,6 +8,8 @@
 
   <base href="{{ site.baseurl }}">
 
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:url" content="http:{{ site.baseurl }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{% if page.layout != 'post' %}{{ site.description | strip_html }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
   <meta property="og:image" content="http:{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.default_image | prepend: site.url }}{% endif %}">
