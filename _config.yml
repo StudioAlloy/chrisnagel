@@ -4,8 +4,8 @@ subtitle: Ik ben maar gewoon een hulpie
 email:
 description:
 
-baseurl: "//studioalloy.nl/chrisnagel" # the subpath of your site, e.g. /blog/
-url: "//studioalloy.nl/chrisnagel" # the base hostname & protocol for your site
+baseurl: "//studioalloy.nl/chrisnagel/" # the subpath of your site, e.g. /blog/
+url: "//studioalloy.nl/chrisnagel/" # the base hostname & protocol for your site
 
 vimeo: 154053478
 
