@@ -16,7 +16,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script type="text/javascript" src="//f.vimeocdn.com/js/froogaloop2.min.js"></script>
     <script type="text/javascript">
-      $(function(){function i(){var i=$("iframe"),t=i.parent().width();i.css({width:t,height:i.height()*(t/i.outerWidth())})}i();var t;window.onresize=function(){clearTimeout(t),t=setTimeout(i,100)}});
+      $(function(){function t(){e.css({width:i,height:e.height()*(i/e.outerWidth())})}var n,e=$("iframe"),i=e.parent().width(),o=$f(e[0]),d=!1;t(),o.addEvent("ready",function(){o.addEvent("pause",function(){d=!1}),o.addEvent("finish",function(){d=!1}),o.addEvent("playProgress",function(){d||($("html, body").animate({scrollTop:e.offset().top},1200),d=!0)})}),window.onresize=function(){clearTimeout(n),n=setTimeout(t,100)}});
     </script>
   </body>
 
