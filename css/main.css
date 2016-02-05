@@ -344,3 +344,14 @@ footer#colophon p {
 }
 /* END MQ
 ———————————————————————————————————— */
+
+/* IE 9  fixes
+———————————————————————————————————— */
+img {text-decoration: none; border: 0px}
+.no-flexbox footer .sa-credits {
+    float: right;
+    padding-bottom: 27px;
+}
+/* END IE 9  fixes
+———————————————————————————————————— */
+
