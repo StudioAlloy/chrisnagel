@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chris Nagel</title>
-    <description></description>
+    <description>Dit is een film voor en over mijn opa, het is een portret van Chris Nagel.</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Feb 2016 10:57:01 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2016 10:57:01 +0100</lastBuildDate>
+    <pubDate>Tue, 09 Feb 2016 14:07:14 +0100</pubDate>
+    <lastBuildDate>Tue, 09 Feb 2016 14:07:14 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>
