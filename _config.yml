@@ -4,8 +4,8 @@ subtitle: Ik ben maar gewoon een hulpie
 email:
 description: Dit is een film voor en over mijn opa, het is een portret van Chris Nagel.
 
-baseurl: "http://chrisnagel.nl/" # the subpath of your site, e.g. /blog/
-url: "http://chrisnagel.nl/" # the base hostname & protocol for your site
+baseurl: "//chrisnagel.nl/" # the subpath of your site, e.g. /blog/
+url: "//chrisnagel.nl/" # the base hostname & protocol for your site
 
 default_image: chris-nagel.jpg
 
